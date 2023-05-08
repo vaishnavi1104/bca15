@@ -1,0 +1,25 @@
+// Slip1q1
+// check maximum and minimum of two nos using Inline function
+#include<iostream.h>
+#include<conio.h>
+class max
+{
+public:
+inline int maximum(int a,int b)
+{
+return a>b?a:b;
+}
+};
+void main()
+{
+int a,b;
+max m;
+clrscr();
+cout<<"Enter two number:";
+
+cin>>a>>b;
+cout<<"Number 1st: "<<a<<endl;
+cout<<"Number 2nd: "<<b<<endl;
+cout<<"Maximum number is: "<<m.maximum(a,b)<<endl;
+getch();
+}
